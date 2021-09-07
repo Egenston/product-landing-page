@@ -4,10 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f19b25fb2d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Product Landing Page</title>
 </head>
 <body>
-    
+    <header id="header">
+        <img src="https://lallenfrancisl.github.io/free-code-camp-projects/productlandingpage/assets/images/original_trombones.png" alt="company-logo" id="header-img">
+        <nav id="nav-bar">
+            <a href="" class="nav-link">Features</a>
+            <a href="" class="nav-link">How It Works</a>
+            <a href="" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email" id="email-label">Handcrafted, home-made masterpieces <br>
+            <input type="email" id="email" placeholder="Enter your email adress">
+        </label> <br>
+        <input type="submit" id="submit" value="GET STARTED" form="form">
+    </form>
+    <main id="main">
+        <div class="feature">
+            <div class="icon-div">
+                <i class="fas fa-fire"></i>
+            </div>
+            <div>
+                <h2 class="feature-name">
+                    Premium Materials
+                </h2>
+                <p class="feature-description">
+                    Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon-div">
+                <i class="fas fa-truck"></i>
+            </div> 
+            <div>
+                <h2 class="feature-name">
+                    Fast Shipping
+                </h2>
+                <p class="feature-description">
+                    We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are
+                    not satisfied.
+                </p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
